@@ -1,0 +1,23 @@
+/* Preloader */
+ 
+#preloader {
+    position:fixed;
+    top:;
+    left:;
+    right:;
+    bottom:;
+    background-color:#fff; /* sayfa yüklenirken gösterilen arkaplan rengimiz */
+    z-index:99; /* efektin arkada kalmadığından emin oluyoruz */
+}
+ 
+#status {
+    width:200px;
+    height:200px;
+    position:absolute;
+    left:50%;
+    top:50%;
+    background-image:url(http://www.wallpaperama.com/post-images/forums/200903/07p-6606-loading-photo.gif); /* burası yazının ilk başında bahsettiğimiz animasyonu çağırır */
+    background-repeat:no-repeat;
+    background-position:center;
+    margin:-100px   -100px;
+}
